@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+</head>
+
+<body>
+    <nav style="background-color: aqua;">
+        <a href="./index.html">kembali</a>
+        <a href="./table.html">table</a>
+        <a href="./action.html"></a>
+    </nav>
+    <form action="./action.html" method="get">
+        <div>
+            <label for="nama"> Nama Lengkap</label>
+            <input type="text" id="nama" name="nama">
+        </div>
+        <div>
+            <label for="Email"> Email</label>
+            <input type="email" id="Email" name="Email" value="@gmail">
+        </div>
+        <div>
+            <label for="password"> password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="gender"> gender</label>
+            <div>
+                <input type="radio" id="laki-laki" name="laki-laki" value="laki-laki">
+                <input type="radio" id="perempuan" name="perempuan" value="perempuan">
+            </div>
+        </div>
+        <div>
+            <label for="alamat"> alamat</label>
+            <div>
+                <textarea name="alamat" id="alamat"></textarea>
+            </div>
+        </div>
+        <div>
+            <label for="agama"> agama</label>
+            <select name="agama" id="agama">
+                <option value="islam">islam</option>
+                <option value="kristen">kristen</option>
+                <option value="hindu">hindu</option>
+                <option value="budha">budha</option>
+            </select>
+        </div>
+        <div>
+            <label for="image"> image</label>
+            <input type="file" id="image" name="image">
+        </div>
+        
+        <button type="submit">simpan</button>
+        <button type="reset">reset</button>
+    </form>
+
+</body>
+
+</html>
