@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html,
+body{
+    height: 100%;
+    font-family: 'poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    background-color: aquamarine;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar > .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.container-logo {
+    display: flex;
+    margin-left: 10px;
+}
+
+.logo {
+    color: rgb(254, 254, 254);
+    font-weight: 600;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.menu {
+    display: block;
+}
+
+.menu li {
+    display: block;
+    color: #000;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+menu > li:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.menu > li:hover:not(.active) {
+    background-color: #1111113f;
+}
+
+@media screen and (min-width: 480px) {
+    .menu{
+        display: flex;
+        gap: 20px;
+        color: royalblue;
+        margin-right: 100%;
+}
+.container-logo {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.banner {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("https://img.freepik.com/free-photo/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai_188544-15662.jpg?w=1380&t=st=1708958175~exp=1708958775~hmac=72e41d7398b9556c45028cae5f09335aab1edba7039d33cc2d2b2c594c4bd092")
+    no-repeat center;
+  text-align: center;
+}
+.banner > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-overflow: ellipsis;
+  width: 30%;
+  height: 100px;
+  margin: 0 auto;
+  color: white;
+}
+  .hamburger-icon{
+  display: none;
+  width: 100px;
+}
+}
+.banner {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("https://img.freepik.com/free-photo/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai_188544-15662.jpg?w=1380&t=st=1708958175~exp=1708958775~hmac=72e41d7398b9556c45028cae5f09335aab1edba7039d33cc2d2b2c594c4bd092")
+    no-repeat center;
+  text-align: center;
+}
+.banner > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-overflow: ellipsis;
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  color: white;
+}
+.button {
+  background-color: rgb(230, 65, 255);
+  border-radius: 20px;
+  justify-content: center;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #1111113f;
+  border: 1px solid rgb(97, 0, 73);
+}
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.card-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border: 5px solid rgb(255, 0, 195);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
